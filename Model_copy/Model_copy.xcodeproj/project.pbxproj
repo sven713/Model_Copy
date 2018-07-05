@@ -19,6 +19,8 @@
 		A03B8A2C20EDADA400B2E16E /* BViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A03B8A2B20EDADA400B2E16E /* BViewController.m */; };
 		A03B8A2F20EDAE6800B2E16E /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = A03B8A2E20EDAE6800B2E16E /* Person.m */; };
 		A03B8A3220EDAEA300B2E16E /* Dog.m in Sources */ = {isa = PBXBuildFile; fileRef = A03B8A3120EDAEA300B2E16E /* Dog.m */; };
+		A03B8A3520EDCE2A00B2E16E /* UIAlertView+Block.m in Sources */ = {isa = PBXBuildFile; fileRef = A03B8A3420EDCE2A00B2E16E /* UIAlertView+Block.m */; };
+		A03B8A3820EDEF4400B2E16E /* NSArray+Safe.m in Sources */ = {isa = PBXBuildFile; fileRef = A03B8A3720EDEF4400B2E16E /* NSArray+Safe.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +65,10 @@
 		A03B8A2E20EDAE6800B2E16E /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 		A03B8A3020EDAEA300B2E16E /* Dog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Dog.h; sourceTree = "<group>"; };
 		A03B8A3120EDAEA300B2E16E /* Dog.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Dog.m; sourceTree = "<group>"; };
+		A03B8A3320EDCE2A00B2E16E /* UIAlertView+Block.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIAlertView+Block.h"; sourceTree = "<group>"; };
+		A03B8A3420EDCE2A00B2E16E /* UIAlertView+Block.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIAlertView+Block.m"; sourceTree = "<group>"; };
+		A03B8A3620EDEF4400B2E16E /* NSArray+Safe.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSArray+Safe.h"; sourceTree = "<group>"; };
+		A03B8A3720EDEF4400B2E16E /* NSArray+Safe.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Safe.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +123,10 @@
 				A03B89F620EDAD5900B2E16E /* AppDelegate.m */,
 				A03B8A2720EDAD7600B2E16E /* AViewController.h */,
 				A03B8A2820EDAD7600B2E16E /* AViewController.m */,
+				A03B8A3620EDEF4400B2E16E /* NSArray+Safe.h */,
+				A03B8A3720EDEF4400B2E16E /* NSArray+Safe.m */,
+				A03B8A3320EDCE2A00B2E16E /* UIAlertView+Block.h */,
+				A03B8A3420EDCE2A00B2E16E /* UIAlertView+Block.m */,
 				A03B8A2A20EDADA400B2E16E /* BViewController.h */,
 				A03B8A2B20EDADA400B2E16E /* BViewController.m */,
 				A03B8A2D20EDAE6800B2E16E /* Person.h */,
@@ -287,9 +297,11 @@
 			files = (
 				A03B8A2920EDAD7600B2E16E /* AViewController.m in Sources */,
 				A03B8A2F20EDAE6800B2E16E /* Person.m in Sources */,
+				A03B8A3820EDEF4400B2E16E /* NSArray+Safe.m in Sources */,
 				A03B89FA20EDAD5900B2E16E /* ViewController.m in Sources */,
 				A03B8A0520EDAD5900B2E16E /* main.m in Sources */,
 				A03B8A3220EDAEA300B2E16E /* Dog.m in Sources */,
+				A03B8A3520EDCE2A00B2E16E /* UIAlertView+Block.m in Sources */,
 				A03B8A2C20EDADA400B2E16E /* BViewController.m in Sources */,
 				A03B89F720EDAD5900B2E16E /* AppDelegate.m in Sources */,
 			);
